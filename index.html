@@ -21,8 +21,8 @@
             height: auto;
             margin-top: 20px; /* Add space from the top */
         }
-        .download-btn {
-            margin-top: 20px; /* Space below the image */
+        .download-btn, .stream-btn {
+            margin-top: 20px; /* Space below elements */
             text-decoration: none;
             color: white;
             background-color: orange;
@@ -31,8 +31,13 @@
             font-size: 18px;
             transition: background-color 0.3s ease;
         }
-        .download-btn:hover {
+        .download-btn:hover, .stream-btn:hover {
             background-color: darkorange;
+        }
+        .stream-info {
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -43,6 +48,16 @@
     <!-- Download button below the image -->
     <a class="download-btn" href="THE_FORMOSE_REACTION_PREBIOTIC_SOUP_OR_RECIPE_FOR_LIFE_PvDUPPEN.pdf" download>
         Download thesis
+    </a>
+
+    <!-- Live stream text -->
+    <div class="stream-info">
+        Live stream 17 December 14.30 hour
+    </div>
+
+    <!-- Stream button -->
+    <a class="stream-btn" href="https://www.ru.nl/aula/livestream" target="_blank">
+        Stream
     </a>
 </body>
 </html>
