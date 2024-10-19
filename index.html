@@ -7,7 +7,8 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
+            font-weight: bold;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -21,7 +22,7 @@
             height: auto;
             margin-top: 20px; /* Add space from the top */
         }
-        .download-btn, .stream-btn {
+        .button {
             margin-top: 20px; /* Space below elements */
             text-decoration: none;
             color: white;
@@ -30,14 +31,18 @@
             border-radius: 50px; /* Make the button round */
             font-size: 18px;
             transition: background-color 0.3s ease;
+            font-weight: bold;
+            font-family: sans-serif;
         }
-        .download-btn:hover, .stream-btn:hover {
+        .button:hover {
             background-color: darkorange;
         }
         .stream-info {
             color: white;
-            font-size: 20px;
-            margin-top: 20px;
+            font-size: 20px; /* Text size 2pt larger than button text */
+            margin-top: 40px; /* Double space between the button and text */
+            font-family: sans-serif;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -46,7 +51,7 @@
     <img src="COVER_FIN_1.png" alt="Thesis Cover" class="cover-image">
 
     <!-- Download button below the image -->
-    <a class="download-btn" href="THE_FORMOSE_REACTION_PREBIOTIC_SOUP_OR_RECIPE_FOR_LIFE_PvDUPPEN.pdf" download>
+    <a class="button" href="THE_FORMOSE_REACTION_PREBIOTIC_SOUP_OR_RECIPE_FOR_LIFE_PvDUPPEN.pdf" download>
         Download thesis
     </a>
 
@@ -56,7 +61,7 @@
     </div>
 
     <!-- Stream button -->
-    <a class="stream-btn" href="https://www.ru.nl/aula/livestream" target="_blank">
+    <a class="button" href="https://www.ru.nl/aula/livestream" target="_blank">
         Stream
     </a>
 </body>
